@@ -1,0 +1,28 @@
+{
+  "name": "lunanodejs-api",
+  "description": "Nodejs library to access the Luna Node Dynamic API",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "author": "dolu89",
+  "repository": "dolu89/lunanodejs-api",
+  "license": "MIT",
+  "scripts": {
+    "compile": "babel src --out-dir lib",
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "prepublish": "npm run compile",
+    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-preset-es2015-node4": "*",
+    "coveralls": "*",
+    "chai": "*",
+    "isparta": "*",
+    "mocha": "*",
+    "sinon": "*"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "crypto-js": "^3.1.9-1"
+  }
+}
