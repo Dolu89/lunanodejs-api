@@ -13,13 +13,14 @@
     "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
   },
   "devDependencies": {
-    "babel-cli": "*",
-    "babel-preset-es2015-node4": "*",
-    "coveralls": "*",
-    "chai": "*",
-    "isparta": "*",
-    "mocha": "*",
-    "sinon": "*"
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.9",
+    "isparta": "^4.1.1",
+    "mocha": "^7.0.0",
+    "sinon": "^8.1.1"
   },
   "dependencies": {
     "axios": "^0.19.2",
