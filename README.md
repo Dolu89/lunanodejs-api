@@ -22,7 +22,11 @@ npm install lunanodejs-api
 And include in your project:
 
 ```javascript
-import lunanodejs-api from 'lunanodejs-api';
+import { LunanodejsApi } from 'lunanodejs-api';
+
+const lndApi = new LunanodejsApi('api_id', 'api_key');
+const vm = await lndApi.request('vm', 'create', { plan_id: 'm.1s', hostname: 'my_new_vm', image_id: 240308, scripts: '1234', region: 'roubaix' });
+const images = await lndApi.request('image', 'list');
 ```
 
 ## License
