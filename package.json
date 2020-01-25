@@ -1,7 +1,7 @@
 {
   "name": "lunanodejs-api",
   "description": "Nodejs library to access the Luna Node Dynamic API",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "author": "dolu89",
   "repository": "dolu89/lunanodejs-api",
