@@ -9,8 +9,7 @@
   "scripts": {
     "compile": "babel src --out-dir lib",
     "coveralls": "cat ./coverage/lcov.info | coveralls",
-    "prepublish": "npm run compile",
-    "test": "babel-node ./node_modules/.bin/isparta cover _mocha"
+    "prepublish": "npm run compile"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.3",
